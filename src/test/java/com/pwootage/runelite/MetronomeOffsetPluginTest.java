@@ -1,13 +1,13 @@
-package com.example;
+package com.pwootage.runelite;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class MetronomeOffsetPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(MultiMetronomePlugin.class);
 		RuneLite.main(args);
 	}
 }
